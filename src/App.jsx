@@ -116,7 +116,7 @@ function App() {
       <button onClick={handleSave} className="save"
       onKeyDown={(e)=> {
         if(e.key == "Enter"){
-          handleSelect(note);
+          handleSelect(notes);
         }
       }}>保存</button>
       </>
